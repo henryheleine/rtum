@@ -1,6 +1,6 @@
-var domain = (process && process.argv && process.argv[2] != null) ? process.argv[2] : 'http://www.rightmove.co.uk';
-var pwd = '/Users/henry/Documents/nodejs/rtum';
-var lib = '/Users/henry/Documents/nodejs/lib';
+var domain = (process && process.argv && process.argv[2] != null) ? process.argv[2] : 'http://www.example.com';
+var pwd = '/Users/<username>/Documents/nodejs/rtum';
+var lib = '/Users/<username>/Documents/nodejs/lib';
 var Step = require(lib+'/step.js');
 
 
